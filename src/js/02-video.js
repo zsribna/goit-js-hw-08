@@ -18,3 +18,5 @@ player.on(
 const currentTime = localStorage.getItem('videoplayer-current-time');
 
 player.setCurrentTime(currentTime);
+
+// console.log(_.throttle());
